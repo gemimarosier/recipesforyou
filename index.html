@@ -3,6 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<title>Side Dish Spotlight</title>
+	<link rel="stylesheet" href="css/recipes.css">
 </head>
 
 <body>
@@ -11,7 +12,7 @@
 <section id="begin" class="all-secs">
 	<h1>Side Dish Spotlight</h1>
 
-	<p>Welcome to Side Dish Spotlight!Looking to discover some recipes that will spice up 	chicken or fillet of fish? Use this program to find a side dish recipe that will spark your taste buds using only 5 ingredients!</p> 
+	<p>Welcome to Side Dish Spotlight! Looking to discover some recipes that will spice up 	chicken or fillet of fish? Use this program to find a side dish recipe that will spark your taste buds using only 5 ingredients!</p> 
 
 	<p>Take a short quiz and we will suggest a side dish for you!</p>
 
@@ -27,7 +28,7 @@
 	<h1>Quiz</h1>
 	<p>Let us get to know what you are craving!</p>
 
-	<!----<form id="myForm" action="/echo/html/" method="post">---->
+	<!--<form id="myForm" action="/echo/html/" method="post">-->
 
 <div>
     <label for="theName">Your name:</label>
@@ -36,17 +37,17 @@
 
 <div>
     <p>I am looking for something: 
-    <label><input type="radio" name="taste" id="taste1" value="sweet">sweet</label>
-    <label><input type="radio" name="taste" id="taste2" value="salty">salty</label>
-        <label><input type="radio" name="taste" id="taste3" value="sweetnsalty">sweet & salty</label></p>
-    <label><input type="radio" name="taste" id="taste4" value="neutral">neutral</label>
+    <label><input type="radio" name="taste" id="taste1" value="sweet">Sweet</label>
+    <label><input type="radio" name="taste" id="taste2" value="salty">Salty</label>
+        <label><input type="radio" name="taste" id="taste3" value="sweetnsalty">Sweet & salty</label></p>
+    <label><input type="radio" name="taste" id="taste4" value="neutral">Neutral</label>
     <label><input type="radio" name="taste" id="taste5" value="surpriseme">Surprise Me!</label>
 </div>
 
 <div>
     <p>I am looking for: 
-    <label><input type="radio" name="type" id="type1" value="vegetable">vegetable</label>
-    <label><input type="radio" name="taste" id="taste2" value="salty">non-vegetable</label>
+    <label><input type="radio" name="type" id="type1" value="vegetable">Vegetable</label>
+    <label><input type="radio" name="taste" id="taste2" value="salty">Non-vegetable</label>
        
 </div>
 
@@ -54,6 +55,13 @@
     <p>I am looking for: 
     <label><input type="radio" name="oil" id="oil1" value="fried">Fried</label>
     <label><input type="radio" name="oil" id="oil2" value="nonfried">Non-fried</label>
+    
+</div>
+
+<div>
+    <p>I am looking for: 
+    <label><input type="radio" name="full" id="full1" value="light">Light</label>
+    <label><input type="radio" name="full" id="full2" value="heavy">Heavy</label>
     
 </div>
 <div class="next">
@@ -71,7 +79,7 @@
 
 
 <section id="results" class="all-secs">
-	<p>This will include 5 ingredients of the given recipe. User will have to guess what recipes</p>
+	<p>This will include 5 ingredients of the given recipes.</p>
 	<div class="next">
 	<p><input type="submit" value="Continue"></p>
 	</div>
@@ -81,7 +89,7 @@
 
 
 <section id="meal" class="all-secs">
-	<p>This section will have the picture of the side dish and a recap of the instructions</p>
+	<p>This section will have the picture of the side dish and a recap of the instructions.</p>
 	<div class="next">
 	<p><input type="submit" value="Continue"></p>
 	</div>
