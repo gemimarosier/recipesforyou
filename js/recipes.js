@@ -7,13 +7,13 @@ $('.all-secs').hide();
 
 $('#begin').show();
 
-$('body').on('click', '.all-secs', function() {
+$('body').on('click', '.next', function() {
     
-    $(this).slideToggle();
+    $(this).parent().slideToggle();
     
    
-    if ( $(this).attr("id") != "meal" ) {
-    	$(this).next().slideToggle();
+    if ( $(this).parent().attr("id") != "meal" ) {
+    	$(this).parent().next().slideToggle();
     } else {
         $('#begin').slideToggle();
     }
