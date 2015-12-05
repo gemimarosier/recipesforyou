@@ -19,4 +19,36 @@ $('body').on('click', '.next', function() {
     }
 });
 
+$('body').on('click', '.submit', function() {
+    
+  
+	if ($( "#sweet" ).prop( "checked", true )) {
+		$("#result1").show();		
+	} else if ( $("#salty").prop("checked", true)) {
+		$("#result2").show();
+	
+	
+	};
+
+    
+   
+    
 });
+
+
+
+//if ($( "#sweet" ).prop( "checked", true )) {
+		/*$(this).parent().slideToggle();*/
+		
+	//} else {
+	//};  
+
+
+
+
+
+
+
+
+});
+
