@@ -3,11 +3,18 @@
 <head>
 	<meta charset="utf-8">
 	<title>Side Dish Spotlight</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/recipes.css">
 </head>
 
 <body>
 
+<div class="container">
+
+
+<div class="row">
+
+<div class="col-sm-12">
 
 <section id="begin" class="all-secs">
 	<h1>Side Dish Spotlight</h1>
@@ -28,7 +35,7 @@
 	<h1>Quiz</h1>
 	<p>Let us get to know what you are craving!</p>
 
-	<!--<form id="myForm" action="/echo/html/" method="post">-->
+	
 
 <div>
     <label for="theName">Your name:</label>
@@ -37,78 +44,152 @@
 
 <div>
     <p>I am looking for something: 
-    <div id="sweet>"<label><input type="radio" name="taste" id="taste1" value="sweet">Sweet</label></div>
-    <div id="salty"><label><input type="radio" name="taste" id="taste2" value="salty">Salty</label></div>
-        <div id="sweetnsalty"><label><input type="radio" name="taste" id="taste3" value="sweetnsalty">Sweet & salty</label></div></p>
-    <label><input type="radio" name="taste" id="taste4" value="neutral">Neutral</label>
-    <label><input type="radio" name="taste" id="taste5" value="surpriseme">Surprise Me!</label>
+    <div><label><input type="radio" name="taste" id="taste1" value="sweet">Sweet</label></div>
+    <div><label><input type="radio" name="taste" id="taste2" value="salty">Salty</label></div>
+        <div><label><input type="radio" name="taste" id="taste3" value="sweetnsalty">Sweet & salty</label></div></p>
+    <div><label><input type="radio" name="taste" id="taste4" value="neutral">Neutral</label></div>
+    <div><label><input type="radio" name="taste" id="taste5" value="surpriseme">Surprise Me!</label></div>
 </div>
 
-<!--<div>
-    <p>I am looking for: 
-    <label><input type="radio" name="type" id="type1" value="vegetable">Vegetable</label>
-    <label><input type="radio" name="taste" id="taste2" value="salty">Non-vegetable</label>
-       
+<div >
+    <button id="submit" >Submit</button>
 </div>
-
-<div>
-    <p>I am looking for: 
-    <label><input type="radio" name="oil" id="oil1" value="fried">Fried</label>
-    <label><input type="radio" name="oil" id="oil2" value="nonfried">Non-fried</label>
-    
-</div>
-
-<div>
-    <p>I am looking for: 
-    <label><input type="radio" name="full" id="full1" value="light">Light</label>
-    <label><input type="radio" name="full" id="full2" value="heavy">Heavy</label>
-    
-</div>-->
-<div class="submit">
-    <input type="submit" >
-</div>
-    <input type="reset">
+ 
 </div>
 
 
 
-</form>
+
 
 </section> 
 
 
 
 <section id="result1" class="all-secs">
-	<p>Brazilian Grilled Pineapple.</p>
-	<div class="next">
+	<h1>Brazilian Grilled Pineapple.</h1>
+	<ul>
+	<li>1 cup brown sugar</li>
+	<li>2 teaspoons ground cinnamon</li>
+	<li>1 pineapple - peeled, cored, and cut into 6 wedges</li>
+	</ul>
+	<p class="italic">Tap on each step to reveal instructions.</p>
+	<h2 class="s1">Step 1</h2>
+<p class="box one">Preheat an outdoor grill for medium-high heat and lightly oil the grate.</p>
+
+<h2 class="s2">Step 2</h2>
+<p class="box two">Whisk brown sugar and cinnamon together in a bowl. Pour sugar mixture into a large resealable plastic bag. Place pineapple wedges in bag and shake to coat each wedge.</p>
+
+<h2 class="s3">Step 3</h2>
+<p class="box three">Grill pineapple wedges on the preheated grill until heated through, 3 to 5 minutes per side.</p>
+
+
+	<div class="done">
 	<p><input type="submit" value="Continue"></p>
 	</div>
 </section>
 	
 <section id="result2" class="all-secs">
-	<p>Rush Hour Refried Beans.</p>
-	<div class="next">
+	<h1>Rush Hour Refried Beans.</h1>
+	
+		<ul>
+	<li>2 tablespoons bacon grease</li>
+	<li>2 tablespoons chopped onion</li>
+	<li>1 teaspoon minced garlic</li>
+	<li>1 (15 ounce) can pinto beans, undrained</li>
+	<li>1/4 teaspoon ground cumin</li>
+	</ul>
+	<p class="italic">Tap on each step to reveal instructions.</p>
+	<h2 class="s1">Step 1</h2>
+<p class="box one">Heat bacon grease in a skillet over medium heat. Cook and stir onion and garlic in the hot bacon grease until onions are softened, 5 to 7 minutes.</p>
+
+<h2 class="s2">Step 2</h2>
+<p class="box two">Mash pinto beans and cumin into onion mixture using a potato masher until reaching your desired consistency.</p>
+
+<h2 class="s3">Step 3</h2>
+<p class="box three">Cook and stir bean mixture until heated through, 3 to 5 minutes.</p>
+
+	<div class="done">
 	<p><input type="submit" value="Continue"></p>
 	</div>
 </section>
 	
 <section id="result3" class="all-secs">
-	<p>Coconut Jasmine Rice.</p>
-	<div class="next">
+	<h1>Coconut Jasmine Rice.</h1>
+	
+	
+		<ul>
+	<li>1 (14 ounce) can coconut milk</li>
+	<li>1 1/4 cups water</li>
+	<li>1 teaspoon white sugar</li>
+	<li>1 pinch salt</li>
+	<li>1 1/2 cups jasmine rice</li>
+	</ul>
+	<p class="italic">Tap on each step to reveal instructions.</p>
+	<h2 class="s1">Step 1</h2>
+<p class="box one">Stir coconut milk, water, sugar, and salt together in a saucepan over medium heat until sugar dissolves.</p>
+
+<h2 class="s2">Step 2</h2>
+<p class="box two">Add rice; bring to a boil, cover the saucepan, and reduce heat to low.</p>
+
+<h2 class="s3">Step 3</h2>
+<p class="box three">Simmer until rice is tender and liquid is absorbed, 18 to 20 minutes.</p>
+
+	<div class="done">
 	<p><input type="submit" value="Continue"></p>
 	</div>
 </section>
 
 <section id="result4" class="all-secs">
-	<p>Really Simple Rice.</p>
-	<div class="next">
+	<h1>Really Simple Rice.</h1>
+	
+	<p><img src="images/rice.jpg" alt="rice"></p>
+		<ul>
+	<li>1 tablespoon olive oil</li>
+	<li>1 cup long-grain white rice</li>
+	<li>1/2 small onion, finely diced</li>
+	<li>2 cups low-sodium chicken broth</li>
+	<li>1 pinch garlic salt, or to taste</li>
+
+	</ul>
+	<p class="italic">Tap on each step to reveal instructions.</p>
+	<h2 class="s1">Step 1</h2>
+<p class="box one">Heat olive oil in a non-stick saucepan over medium-high heat nearly to smoking. Cook and stir rice in the hot oil quickly to toast the rice, 2 to 3 minutes. Stir the onion into the rice; cook and stir 1 minute more. </p>
+
+<h2 class="s2">Step 2</h2>
+<p class="box two">Pour chicken broth over the rice mixture, season with garlic salt, and bring to a boil; reduce heat to low, place a cover on the saucepan, and cook until the broth is absorbed and the rice is tender, about 20 minutes.</p>
+
+<h2 class="s3">Step 3</h2>
+<p class="box three">Remove from heat and allow to rest 5 minutes before lifting the lid.
+</p>
+
+	<div class="done">
 	<p><input type="submit" value="Continue"></p>
 	</div>
 </section>
 
 <section id="result5" class="all-secs">
-	<p>Bourbon Glazed Carrots.</p>
-	<div class="next">
+	<h1>Bourbon Glazed Carrots.</h1>
+	
+			<ul>
+	<li>2 pounds carrots, peeled and sliced diagonally into 1/2-inch pieces</li>
+	<li>1/4 cup brown sugar</li>
+	<li>1/4 cup butter, melted</li>
+	<li>2 tablespoons bourbon, or more to taste</li>
+
+	</ul>
+	<p class="italic">Tap on each step to reveal instructions.</p>
+	
+	<h2 class="s1">Step 1</h2>
+<p class="box one">Place carrots in a large pot and cover with water; bring to a boil. Reduce heat to medium-low and simmer until tender yet firm to the bite, 10 to 15 minutes. Drain and transfer to a serving bowl. </p>
+
+<h2 class="s2">Step 2</h2>
+<p class="box two">Combine brown sugar, butter, and bourbon together in a saucepan; bring to a simmer. Cook and stir sauce until thickened, about 10 minutes.</p>
+
+<h2 class="s3">Step 3</h2>
+<p class="box three">Pour sauce over carrots and serve immediately.
+</p>
+
+	<div class="done">
 	<p><input type="submit" value="Continue"></p>
 	</div>
 </section>
@@ -116,14 +197,15 @@
 
 
 <section id="meal" class="all-secs">
-	<p>This section will have the picture of the side dish and a recap of the instructions.</p>
+	<p>Congratulations! We hope you enjoyed your side dish.</p>
 	<div class="next">
 	<p><input type="submit" value="Continue"></p>
 	</div>
 </section>
 
-
-
+</div>
+</div>
+</div>
 
 <script src="js/jquery.min.js"></script>
 <script src="js/recipes.js"></script>

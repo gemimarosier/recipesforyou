@@ -1,9 +1,13 @@
 .all-secs {
-	width: 70%; 
+
 	background: #fff; 
 	margin: 10px auto; 
 	padding: 20px; 
 	border: 1px solid
 
 
+} 
+
+p.italic {
+    font-style: italic;
 }
