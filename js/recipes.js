@@ -30,59 +30,38 @@ for ( var i in radioButtons ) {
         }
     }
     if (checkedButton == "sweet") {
+    	document.getElementById("taste1").checked = false;
     	$('#quiz').hide();
 		$("#result1").slideToggle();
 	
 	} else if (checkedButton == "salty") {
+		document.getElementById("taste2").checked = false;
 		$('#quiz').hide();
 		$("#result2").slideToggle();
 		
 	} else if (checkedButton == "sweetnsalty") {
+		document.getElementById("taste3").checked = false;
 		$('#quiz').hide();
 		$("#result3").slideToggle();
 		
 	} else if (checkedButton == "neutral") {
+		document.getElementById("taste4").checked = false;
 		$('#quiz').hide();
 		$("#result4").slideToggle();
 	
     } else if (checkedButton == "surpriseme") {
+    	document.getElementById("taste5").checked = false;
 		$('#quiz').hide();
 		$("#result5").slideToggle();
 	
     }
+    
+    	
 });
 
-
-/* $('body').on('click', '#submit', function() {
-    
-  
-	if ($( "#taste1" ).prop( "checked", true )) {
-		$('#quiz').hide();
-		$("#result1").slideToggle();
-		
-			
-	} else if ( $("#taste2").prop("checked", true)) {
-		$('#quiz').hide();
-		$("result2").slideToggle();
-		
-	} else if ( $("#taste3").prop("checked", true)) {
-		$('#quiz').hide();
-		$("result3").slideToggle();
-	
-	} else if ( $("#taste4").prop("checked", true)) {
-		$('#quiz').hide();
-		$("result4").slideToggle();
-		
-	} else if ( $("#taste5").prop("checked", true)) {
-		$('#quiz').hide();
-		$("result5").slideToggle();
-	 
-	};
-
-    
    
     
-}); */
+}); 
 
 $('.box').hide();
 
@@ -102,26 +81,7 @@ $('body').on('click', '.done', function() {
 		$('.all-secs').hide();
 		$("#meal").slideToggle();
 		
-});	
 
-
-//$('body').on('click', '.submit', function() {
-    
-  
-//	if ($( "#sweet" ).prop( "checked", true )) {
-//		$("#result1").slideToggle();		
-			
-//	} else if ( $("#salty").prop("checked", true)) {
-//		$(this).find("#result2").slideToggle();
-	
-	
-//	};
-
-//if ($( "#sweet" ).prop( "checked", true )) {
-		/*$(this).parent().slideToggle();*/
-		
-	//} else {
-	//};  
 
 
 

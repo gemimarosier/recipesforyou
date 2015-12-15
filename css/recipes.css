@@ -11,3 +11,16 @@
 p.italic {
     font-style: italic;
 }
+
+
+
+@media only screen and (max-width:566px) {
+
+img.food {
+	width: 75%;
+	height: auto;
+	}
+
+
+
+	}

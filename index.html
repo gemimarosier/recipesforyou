@@ -2,6 +2,8 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Side Dish Spotlight</title>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/recipes.css">
@@ -38,28 +40,23 @@
 	
 
 <div>
-    <label for="theName">Your name:</label>
+    <label >Your name:</label>
     <input type="text" name="theName" id="name-input">
 </div>
 
 <div>
     <p>I am looking for something: 
-    <div><label><input type="radio" name="taste" id="taste1" value="sweet">Sweet</label></div>
-    <div><label><input type="radio" name="taste" id="taste2" value="salty">Salty</label></div>
-        <div><label><input type="radio" name="taste" id="taste3" value="sweetnsalty">Sweet & salty</label></div></p>
-    <div><label><input type="radio" name="taste" id="taste4" value="neutral">Neutral</label></div>
-    <div><label><input type="radio" name="taste" id="taste5" value="surpriseme">Surprise Me!</label></div>
+    <div><label><input type="radio" name="taste" id="taste1" value="sweet">  Sweet </label></div>
+    <div><label><input type="radio" name="taste" id="taste2" value="salty">  Salty </label></div>
+        <div><label><input type="radio" name="taste" id="taste3" value="sweetnsalty">  Sweet & salty </label></div>
+    <div><label><input type="radio" name="taste" id="taste4" value="neutral">  Neutral </label></div>
+    <div><label><input type="radio" name="taste" id="taste5" value="surpriseme">  Surprise Me! </label></div>
 </div>
 
-<div >
+<div>
     <button id="submit" >Submit</button>
 </div>
  
-</div>
-
-
-
-
 
 </section> 
 
@@ -67,6 +64,8 @@
 
 <section id="result1" class="all-secs">
 	<h1>Brazilian Grilled Pineapple.</h1>
+	<p><img class="food" src="images/pinneapple.jpg" alt="Grilled Pineapple"></p>
+	<p>Photo by <a href="https://creativecommons.org/licenses/by-nc-sa/2.0/"> Another Pint Please...</a>.</p>
 	<ul>
 	<li>1 cup brown sugar</li>
 	<li>2 teaspoons ground cinnamon</li>
@@ -90,7 +89,8 @@
 	
 <section id="result2" class="all-secs">
 	<h1>Rush Hour Refried Beans.</h1>
-	
+	<p><img class="food" src="images/beans.jpg" alt="Refried Beans"></p>
+	<p>Photo by <a href="https://creativecommons.org/licenses/by-nc/2.0/"> my_amii</a>.</p>
 		<ul>
 	<li>2 tablespoons bacon grease</li>
 	<li>2 tablespoons chopped onion</li>
@@ -115,14 +115,15 @@
 	
 <section id="result3" class="all-secs">
 	<h1>Coconut Jasmine Rice.</h1>
-	
-	
+	<p><img class="food" src="images/coconutrice.jpg" alt="Coconut Jasmine Rice"></p>
+		<p>Photo by <a href="https://creativecommons.org/licenses/by/2.0/"> adamdachis</a>.</p>
 		<ul>
 	<li>1 (14 ounce) can coconut milk</li>
 	<li>1 1/4 cups water</li>
 	<li>1 teaspoon white sugar</li>
 	<li>1 pinch salt</li>
 	<li>1 1/2 cups jasmine rice</li>
+	
 	</ul>
 	<p class="italic">Tap on each step to reveal instructions.</p>
 	<h2 class="s1">Step 1</h2>
@@ -142,7 +143,8 @@
 <section id="result4" class="all-secs">
 	<h1>Really Simple Rice.</h1>
 	
-	<p><img src="images/rice.jpg" alt="rice"></p>
+	<p><img class="food" src="images/rice.jpg" alt="rice"></p>
+	<p> Photo by <a  href="https://creativecommons.org/licenses/by-nc/2.0/">  sweetbeetandgreenbean</a>.</p>
 		<ul>
 	<li>1 tablespoon olive oil</li>
 	<li>1 cup long-grain white rice</li>
@@ -169,6 +171,8 @@
 
 <section id="result5" class="all-secs">
 	<h1>Bourbon Glazed Carrots.</h1>
+		<p><img class="food" src="images/carrots.jpg" alt="Bourbon Glaxed Carrot"></p>
+	<p> Photo by <a  href="https://creativecommons.org/licenses/by-nc-nd/2.0/">   bisongirl</a>.</p>
 	
 			<ul>
 	<li>2 pounds carrots, peeled and sliced diagonally into 1/2-inch pieces</li>
@@ -198,8 +202,8 @@
 
 <section id="meal" class="all-secs">
 	<p>Congratulations! We hope you enjoyed your side dish.</p>
-	<div class="next">
-	<p><input type="submit" value="Continue"></p>
+	<div id="end" class="next">
+	<p><input type="submit" value="Start Over"></p>
 	</div>
 </section>
 
@@ -207,6 +211,11 @@
 </div>
 </div>
 
+<footer class="footer">
+      <div class="container">
+        <p class="text-muted">Web application created by Gemima Rosier. All recipes from <a href="http://allrecipes.com/"> allrecipes.com</a></p>
+      </div>
+    </footer>
 <script src="js/jquery.min.js"></script>
 <script src="js/recipes.js"></script>
 
